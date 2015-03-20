@@ -48,6 +48,8 @@
 
 
 #### Methods
+
+#### getters
 + domModel
 + children
 + hasAttributes
@@ -68,26 +70,31 @@
 + isShadowRoot
 + shadowRootType
 + nodeNameInCorrectCase
-+ setNodeName
 + localName
 + nodeValue
-+ setNodeValue
++ isXMLNode
++ boxModel
 + getAttribute
-+ setAttribute
-+ setAttributeValue
 + attributes
-+ removeAttribute
 + getChildNodes
 + getSubtree
 + getOuterHTML
-+ setOuterHTML
-+ removeNode
-+ copyNode
 + eventListeners
 + path
 + isAncestor
 + isDescendant
 + frameId
+
+
+#### setters
++ setNodeName
++ setNodeValue
++ setAttribute
++ setAttributeValue
++ removeAttribute
++ setOuterHTML
++ removeNode
++ copyNode
 + _setAttributesPayload
 + _insertChild
 + _removeChild
@@ -99,7 +106,6 @@
 + _removeAttribute
 + copyTo
 + moveTo
-+ isXMLNode
 + _updateChildUserPropertyCountsOnRemoval
 + _updateDescendantUserPropertyCount
 + setUserProperty
@@ -110,4 +116,3 @@
 + highlight
 + highlightForTwoSeconds
 + resolveToObject
-+ boxModel

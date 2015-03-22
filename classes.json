@@ -1,0 +1,1441 @@
+{
+  "AccessibilityModel": {},
+  "ActionDelegate": {},
+  "ActionRegistry": {},
+  "AddSourceMapURLDialog": {},
+  "AdvancedApp": {
+    "DeviceCounter": {},
+    "EmulationButtonProvider": {},
+    "ToggleDeviceModeActionDelegate": {}
+  },
+  "AdvancedAppProvider": {},
+  "AdvancedSearchView": {
+    "ToggleDrawerViewActionDelegate": {}
+  },
+  "AgentLayer": {},
+  "AgentLayerTree": {},
+  "AnimationDispatcher": {},
+  "AnimationModel": {
+    "AnimationNode": {},
+    "AnimationPlayer": {},
+    "Events": {
+      "AnimationPlayerCreated": {}
+    },
+    "KeyframeStyle": {},
+    "KeyframesRule": {}
+  },
+  "App": {},
+  "AppProvider": {},
+  "ApplicationCacheDispatcher": {},
+  "ApplicationCacheModel": {
+    "EventTypes": {
+      "FrameManifestAdded": {},
+      "FrameManifestRemoved": {},
+      "FrameManifestStatusUpdated": {},
+      "NetworkStateChanged": {}
+    }
+  },
+  "ArrayGroupingTreeElement": {},
+  "AsyncOperationsSidebarPane": {},
+  "BackingStorage": {},
+  "BaseNavigatorTreeElement": {},
+  "BlackboxSupport": {},
+  "BreakpointManager": {
+    "Breakpoint": {
+      "State": {}
+    },
+    "Events": {
+      "BreakpointAdded": {},
+      "BreakpointRemoved": {},
+      "BreakpointsActiveStateChanged": {}
+    },
+    "Storage": {
+      "Item": {}
+    },
+    "TargetBreakpoint": {}
+  },
+  "BreakpointsSidebarPaneBase": {},
+  "CPUProfileDataModel": {},
+  "CPUProfilerModel": {
+    "EventTypes": {
+      "ConsoleProfileFinished": {},
+      "ConsoleProfileStarted": {},
+      "ProfileStarted": {},
+      "ProfileStopped": {}
+    }
+  },
+  "CSSDispatcher": {},
+  "CSSLocation": {},
+  "CSSMedia": {
+    "Source": {
+      "IMPORT_RULE": {},
+      "INLINE_SHEET": {},
+      "LINKED_SHEET": {},
+      "MEDIA_RULE": {}
+    }
+  },
+  "CSSMediaQuery": {},
+  "CSSMediaQueryExpression": {},
+  "CSSMetadata": {
+    "InheritedProperties": {},
+    "NonStandardInheritedProperties": {},
+    "Weight": {}
+  },
+  "CSSNumberRegex": {},
+  "CSSParser": {
+    "Events": {
+      "RulesParsed": {}
+    }
+  },
+  "CSSProperty": {},
+  "CSSRule": {},
+  "CSSRuleSelector": {},
+  "CSSSourceFrame": {
+    "AutocompleteDelegate": {}
+  },
+  "CSSSourceMapping": {},
+  "CSSStyleDeclaration": {},
+  "CSSStyleModel": {
+    "ComputedStyleLoader": {},
+    "Events": {
+      "MediaQueryResultChanged": {},
+      "ModelWasEnabled": {},
+      "PseudoStateForced": {},
+      "StyleSheetAdded": {},
+      "StyleSheetChanged": {},
+      "StyleSheetRemoved": {}
+    },
+    "MediaTypes": {},
+    "PseudoStatePropertyName": {}
+  },
+  "CSSStyleSheetHeader": {},
+  "CSSWorkspaceBinding": {
+    "HeaderInfo": {},
+    "LiveLocation": {},
+    "TargetInfo": {}
+  },
+  "CallStackSidebarPane": {
+    "CallFrame": {},
+    "Events": {
+      "CallFrameSelected": {},
+      "RevealHiddenCallFrames": {}
+    }
+  },
+  "CheckboxFilterUI": {},
+  "ChunkedFileReader": {},
+  "ChunkedReader": {},
+  "CodeMirrorCSSLoadView": {},
+  "CodeMirrorDictionary": {},
+  "CodeMirrorPositionHandle": {},
+  "CodeMirrorTextEditor": {
+    "BlockIndentController": {},
+    "Events": {
+      "GutterClick": {}
+    },
+    "FixWordMovement": {},
+    "LinesToScanForIndentationGuessing": {},
+    "LongLineModeLineLengthThreshold": {},
+    "MaxEditableTextSize": {},
+    "MaximumNumberOfWhitespacesPerSingleSpan": {},
+    "SelectNextOccurrenceController": {},
+    "TokenHighlighter": {}
+  },
+  "CodeMirrorUtils": {
+    "TokenizerFactory": {}
+  },
+  "CollectionEntriesMainTreeElement": {},
+  "Color": {
+    "Format": {
+      "HEX": {},
+      "HSL": {},
+      "HSLA": {},
+      "Nickname": {},
+      "Original": {},
+      "RGB": {},
+      "RGBA": {},
+      "ShortHEX": {}
+    },
+    "Nicknames": {},
+    "PageHighlight": {
+      "Border": {},
+      "BorderLight": {},
+      "Content": {},
+      "ContentLight": {},
+      "ContentOutline": {},
+      "EventTarget": {},
+      "Margin": {},
+      "MarginLight": {},
+      "Padding": {},
+      "PaddingLight": {},
+      "Shape": {},
+      "ShapeMargin": {}
+    }
+  },
+  "ColorSwatch": {},
+  "ComboBoxFilterUI": {},
+  "CompilerScriptMapping": {},
+  "CompilerSourceMappingContentProvider": {},
+  "CompositeProgress": {},
+  "ConcatenatedScriptsContentProvider": {},
+  "Console": {
+    "Events": {
+      "MessageAdded": {}
+    },
+    "Message": {},
+    "MessageLevel": {
+      "Error": {},
+      "Log": {},
+      "Warning": {}
+    },
+    "UIDelegate": {}
+  },
+  "ConsoleDispatcher": {},
+  "ConsoleMessage": {
+    "MessageLevel": {
+      "Debug": {},
+      "Error": {},
+      "Info": {},
+      "Log": {},
+      "Warning": {}
+    },
+    "MessageSource": {
+      "AppCache": {},
+      "CSS": {},
+      "ConsoleAPI": {},
+      "Deprecation": {},
+      "JS": {},
+      "Network": {},
+      "Other": {},
+      "Rendering": {},
+      "Security": {},
+      "Storage": {},
+      "XML": {}
+    },
+    "MessageType": {
+      "Assert": {},
+      "Clear": {},
+      "Command": {},
+      "Dir": {},
+      "DirXML": {},
+      "EndGroup": {},
+      "Log": {},
+      "Profile": {},
+      "ProfileEnd": {},
+      "Result": {},
+      "StartGroup": {},
+      "StartGroupCollapsed": {},
+      "Table": {},
+      "Trace": {}
+    }
+  },
+  "ConsoleModel": {
+    "Events": {
+      "CommandEvaluated": {},
+      "ConsoleCleared": {},
+      "MessageAdded": {}
+    }
+  },
+  "ContentProvider": {
+    "SearchMatch": {}
+  },
+  "ContentProviderBasedProjectDelegate": {},
+  "ContentScriptProjectDecorator": {},
+  "ContentScriptsNavigatorView": {},
+  "Context": {
+    "Events": {
+      "FlavorChanged": {}
+    }
+  },
+  "ContextMenu": {
+    "Provider": {}
+  },
+  "ContextMenuItem": {},
+  "ContextSubMenuItem": {},
+  "Cookie": {
+    "Type": {
+      "Request": {},
+      "Response": {}
+    }
+  },
+  "CookieParser": {
+    "KeyValue": {}
+  },
+  "Cookies": {},
+  "DOMBreakpointsSidebarPane": {
+    "Proxy": {}
+  },
+  "DOMDispatcher": {},
+  "DOMDocument": {},
+  "DOMModel": {
+    "EventListener": {},
+    "Events": {
+      "AttrModified": {},
+      "AttrRemoved": {},
+      "CharacterDataModified": {},
+      "ChildNodeCountUpdated": {},
+      "DistributedNodesChanged": {},
+      "DocumentUpdated": {},
+      "NodeInserted": {},
+      "NodeInspected": {},
+      "NodeRemoved": {},
+      "UndoRedoCompleted": {},
+      "UndoRedoRequested": {}
+    }
+  },
+  "DOMNode": {
+    "PseudoElementNames": {
+      "After": {},
+      "Before": {}
+    },
+    "ShadowRootTypes": {
+      "Author": {},
+      "UserAgent": {}
+    }
+  },
+  "DOMNodeHighlighter": {},
+  "DOMNodePathStep": {},
+  "DOMPresentationUtils": {},
+  "DOMStorage": {
+    "Events": {
+      "DOMStorageItemAdded": {},
+      "DOMStorageItemRemoved": {},
+      "DOMStorageItemUpdated": {},
+      "DOMStorageItemsCleared": {}
+    }
+  },
+  "DOMStorageDispatcher": {},
+  "DOMStorageModel": {
+    "Events": {
+      "DOMStorageAdded": {},
+      "DOMStorageRemoved": {}
+    }
+  },
+  "DOMSyntaxHighlighter": {},
+  "Database": {},
+  "DatabaseDispatcher": {},
+  "DatabaseModel": {
+    "Events": {
+      "DatabaseAdded": {}
+    }
+  },
+  "DebuggerDispatcher": {},
+  "DebuggerEventTypes": {
+    "JavaScriptBreakpoint": {},
+    "JavaScriptPause": {},
+    "NativeBreakpoint": {}
+  },
+  "DebuggerModel": {
+    "BreakReason": {
+      "Assert": {},
+      "AsyncOperation": {},
+      "CSPViolation": {},
+      "DOM": {},
+      "DebugCommand": {},
+      "EventListener": {},
+      "Exception": {},
+      "Other": {},
+      "PromiseRejection": {},
+      "XHR": {}
+    },
+    "CallFrame": {},
+    "Events": {
+      "AsyncOperationCompleted": {},
+      "AsyncOperationStarted": {},
+      "CallFrameSelected": {},
+      "ConsoleCommandEvaluatedInSelectedCallFrame": {},
+      "DebuggerPaused": {},
+      "DebuggerResumed": {},
+      "DebuggerWasDisabled": {},
+      "DebuggerWasEnabled": {},
+      "FailedToParseScriptSource": {},
+      "GlobalObjectCleared": {},
+      "ParsedScriptSource": {},
+      "PromiseUpdated": {}
+    },
+    "Location": {},
+    "PauseOnExceptionsState": {
+      "DontPauseOnExceptions": {},
+      "PauseOnAllExceptions": {},
+      "PauseOnUncaughtExceptions": {}
+    },
+    "StackTrace": {}
+  },
+  "DebuggerPausedDetails": {},
+  "DebuggerPresentationUtils": {},
+  "DebuggerProjectDelegate": {},
+  "DebuggerSourceMapping": {},
+  "DebuggerWorkspaceBinding": {
+    "Location": {},
+    "ScriptInfo": {},
+    "TargetData": {}
+  },
+  "DefaultDOMNodeHighlighter": {},
+  "DefaultScriptMapping": {},
+  "DeferredDOMNode": {},
+  "DeferredLayerTree": {},
+  "DeferredTempFile": {},
+  "Dialog": {},
+  "DialogDelegate": {},
+  "DisableJavaScriptObserver": {},
+  "DockController": {
+    "ButtonProvider": {},
+    "Events": {
+      "AfterDockSideChanged": {},
+      "BeforeDockSideChanged": {},
+      "DockSideChanged": {}
+    },
+    "State": {
+      "DockedToBottom": {},
+      "DockedToRight": {},
+      "Undocked": {}
+    },
+    "ToggleDockActionDelegate": {}
+  },
+  "Drawer": {
+    "SingletonViewFactory": {},
+    "ViewFactory": {}
+  },
+  "DropDownMenu": {
+    "Events": {
+      "ItemSelected": {}
+    }
+  },
+  "DropTarget": {
+    "Types": {
+      "Files": {},
+      "URIList": {}
+    }
+  },
+  "EditingLocationHistoryEntry": {},
+  "EditingLocationHistoryManager": {
+    "HistoryDepth": {}
+  },
+  "EditorContainerTabDelegate": {},
+  "EmptyView": {},
+  "EmulatedDevice": {
+    "Capability": {
+      "Mobile": {},
+      "Touch": {}
+    },
+    "Horizontal": {},
+    "Images": {
+      "Events": {
+        "Update": {}
+      }
+    },
+    "Type": {
+      "Desktop": {},
+      "Notebook": {},
+      "Phone": {},
+      "Tablet": {},
+      "Unknown": {}
+    },
+    "Vertical": {}
+  },
+  "EmulatedDevicesList": {
+    "Events": {
+      "CustomDevicesUpdated": {},
+      "IsUpdatingChanged": {},
+      "StandardDevicesUpdated": {}
+    }
+  },
+  "Event": {},
+  "EventListenerBreakpointsSidebarPane": {},
+  "EventTarget": {},
+  "ExcludedFolderManager": {
+    "Entry": {},
+    "Events": {
+      "ExcludedFolderAdded": {},
+      "ExcludedFolderRemoved": {}
+    }
+  },
+  "ExecutionContext": {},
+  "ExecutionContextSelector": {},
+  "ExtensibleTabbedPaneController": {},
+  "ExtensionAuditCategory": {},
+  "ExtensionAuditCategoryResults": {},
+  "ExtensionButton": {},
+  "ExtensionNotifierView": {},
+  "ExtensionPanel": {},
+  "ExtensionServer": {
+    "Events": {
+      "AuditCategoryAdded": {},
+      "SidebarPaneAdded": {}
+    }
+  },
+  "ExtensionServerPanelDescriptor": {},
+  "ExtensionSidebarPane": {},
+  "ExtensionStatus": {},
+  "ExtensionView": {},
+  "FileBasedSearchResult": {},
+  "FileBasedSearchResultsPane": {
+    "FileTreeElement": {}
+  },
+  "FileDescriptor": {},
+  "FileManager": {
+    "EventTypes": {
+      "AppendedToURL": {},
+      "SavedURL": {}
+    }
+  },
+  "FileOutputStream": {},
+  "FilePathScoreFunction": {},
+  "FileSystemMapping": {
+    "Entry": {},
+    "Events": {
+      "FileMappingAdded": {},
+      "FileMappingRemoved": {}
+    }
+  },
+  "FileSystemModel": {
+    "Directory": {},
+    "Entry": {},
+    "EventTypes": {
+      "FileSystemAdded": {},
+      "FileSystemRemoved": {}
+    },
+    "File": {},
+    "FileSystem": {}
+  },
+  "FileSystemWorkspaceBinding": {
+    "FileSystem": {}
+  },
+  "FilterBar": {
+    "Events": {
+      "FiltersToggled": {}
+    },
+    "FilterBarState": {
+      "Active": {},
+      "Inactive": {},
+      "Shown": {}
+    }
+  },
+  "FilterUI": {
+    "Events": {
+      "FilterChanged": {}
+    }
+  },
+  "FilteredItemSelectionDialog": {},
+  "FontView": {},
+  "Formatter": {},
+  "FormatterProjectDelegate": {},
+  "FormatterScriptMapping": {
+    "FormatData": {}
+  },
+  "FormatterSourceMapping": {},
+  "FormatterSourceMappingImpl": {},
+  "ForwardedInputEventHandler": {},
+  "FunctionScopeMainTreeElement": {},
+  "Geometry": {
+    "CubicBezier": {
+      "KeywordValues": {}
+    },
+    "EulerAngles": {},
+    "Point": {},
+    "Vector": {}
+  },
+  "GlassPane": {
+    "DefaultFocusedViewStack": {}
+  },
+  "GoToLineDialog": {},
+  "HAREntry": {},
+  "HARLog": {},
+  "HBox": {},
+  "HandlerRegistry": {
+    "ContextMenuProvider": {},
+    "EventTypes": {
+      "HandlersUpdated": {}
+    },
+    "LinkHandler": {},
+    "OpenAnchorLocationSettingDelegate": {}
+  },
+  "HandlerSelector": {},
+  "HeapProfilerDispatcher": {},
+  "HeapProfilerModel": {
+    "Events": {
+      "AddHeapSnapshotChunk": {},
+      "HeapStatsUpdate": {},
+      "LastSeenObjectId": {},
+      "ReportHeapSnapshotProgress": {},
+      "ResetProfiles": {}
+    }
+  },
+  "HelpScreen": {},
+  "HelpScreenUntilReload": {},
+  "HistoryEntry": {},
+  "IdentityFormatter": {},
+  "IdentityFormatterSourceMapping": {},
+  "ImageView": {},
+  "IndexedDBModel": {
+    "Database": {},
+    "DatabaseId": {},
+    "Entry": {},
+    "EventTypes": {
+      "DatabaseAdded": {},
+      "DatabaseLoaded": {},
+      "DatabaseRemoved": {}
+    },
+    "Index": {},
+    "KeyPathTypes": {
+      "ArrayType": {},
+      "NullType": {},
+      "StringType": {}
+    },
+    "KeyTypes": {
+      "ArrayType": {},
+      "DateType": {},
+      "NumberType": {},
+      "StringType": {}
+    },
+    "ObjectStore": {}
+  },
+  "InplaceEditor": {
+    "Config": {}
+  },
+  "InplaceFormatterEditorAction": {},
+  "InspectElementModeController": {
+    "ToggleButtonProvider": {},
+    "ToggleSearchActionDelegate": {}
+  },
+  "InspectedPagePlaceholder": {
+    "Events": {
+      "Update": {}
+    },
+    "MarginValue": {}
+  },
+  "InspectorExtensionRegistryStub": {},
+  "InspectorFrontendHostStub": {},
+  "InspectorView": {
+    "DrawerToggleActionDelegate": {},
+    "ToggleDrawerButtonProvider": {}
+  },
+  "InvokeOnceHandlers": {},
+  "IsolatedFileSystem": {},
+  "IsolatedFileSystemManager": {
+    "Events": {
+      "FileSystemAdded": {},
+      "FileSystemRemoved": {}
+    }
+  },
+  "JavaScriptBreakpointsSidebarPane": {},
+  "JavaScriptCompiler": {
+    "CompileDelay": {}
+  },
+  "JavaScriptOutlineDialog": {},
+  "JavaScriptSourceFrame": {},
+  "KeyboardShortcut": {
+    "KeyBindings": {
+      "Ctrl": {},
+      "Del": {},
+      "End": {},
+      "Enter": {},
+      "Esc": {},
+      "F1": {},
+      "F10": {},
+      "F11": {},
+      "F12": {},
+      "F2": {},
+      "F3": {},
+      "F4": {},
+      "F5": {},
+      "F6": {},
+      "F7": {},
+      "F8": {},
+      "F9": {},
+      "Home": {},
+      "Meta": {},
+      "Numpad +": {},
+      "Numpad -": {},
+      "Numpad 0": {},
+      "PageDown": {},
+      "PageUp": {},
+      "Shift": {},
+      "Space": {},
+      "Tab": {},
+      "Tilde": {}
+    },
+    "Keys": {
+      "Apostrophe": {},
+      "Backslash": {},
+      "Backspace": {},
+      "Comma": {},
+      "Ctrl": {},
+      "CtrlOrMeta": {},
+      "Delete": {},
+      "Down": {},
+      "End": {},
+      "Enter": {},
+      "Esc": {},
+      "F1": {},
+      "F10": {},
+      "F11": {},
+      "F12": {},
+      "F2": {},
+      "F3": {},
+      "F4": {},
+      "F5": {},
+      "F6": {},
+      "F7": {},
+      "F8": {},
+      "F9": {},
+      "Home": {},
+      "Left": {},
+      "LeftSquareBracket": {},
+      "Meta": {},
+      "Minus": {},
+      "Numpad0": {},
+      "NumpadMinus": {},
+      "NumpadPlus": {},
+      "PageDown": {},
+      "PageUp": {},
+      "Period": {},
+      "Plus": {},
+      "QuestionMark": {},
+      "Right": {},
+      "RightSquareBracket": {},
+      "Semicolon": {},
+      "Shift": {},
+      "SingleQuote": {},
+      "Slash": {},
+      "Space": {},
+      "Tab": {},
+      "Tilde": {},
+      "Up": {},
+      "Zero": {}
+    },
+    "Modifiers": {
+      "Alt": {},
+      "Ctrl": {},
+      "CtrlOrMeta": {},
+      "Meta": {},
+      "None": {},
+      "Shift": {},
+      "ShiftOrOption": {}
+    },
+    "SelectAll": {}
+  },
+  "Layer": {},
+  "LayerTreeBase": {},
+  "LayerTreeDispatcher": {},
+  "LayerTreeModel": {
+    "Events": {
+      "LayerPainted": {},
+      "LayerTreeChanged": {}
+    },
+    "ScrollRectType": {
+      "NonFastScrollable": {},
+      "RepaintsOnScroll": {},
+      "TouchEventHandler": {},
+      "WheelEventHandler": {}
+    }
+  },
+  "Linkifier": {
+    "DefaultCSSFormatter": {
+      "MaxLengthForDisplayedURLs": {}
+    },
+    "DefaultFormatter": {},
+    "LinkHandler": {},
+    "MaxLengthForDisplayedURLs": {}
+  },
+  "LinkifierFormatter": {},
+  "LiveLocation": {},
+  "LocalJSONObject": {},
+  "Lock": {
+    "Events": {
+      "StateChanged": {}
+    }
+  },
+  "LongClickController": {
+    "Events": {
+      "LongClick": {},
+      "LongPress": {}
+    }
+  },
+  "Main": {
+    "DebugReloadActionDelegate": {},
+    "HardReloadActionDelegate": {},
+    "InspectedNodeRevealer": {},
+    "PauseListener": {},
+    "ReloadActionDelegate": {},
+    "ShortcutPanelSwitchSettingDelegate": {},
+    "WarningErrorCounter": {},
+    "ZoomInActionDelegate": {},
+    "ZoomOutActionDelegate": {},
+    "ZoomResetActionDelegate": {}
+  },
+  "MapEntryLocalJSONObject": {},
+  "MediaQueryInspector": {
+    "Events": {
+      "CountUpdated": {},
+      "HeightUpdated": {}
+    },
+    "MediaQueryUIModel": {},
+    "Section": {
+      "Max": {},
+      "Min": {},
+      "MinMax": {}
+    }
+  },
+  "MultitargetConsoleModel": {},
+  "MultitargetNetworkManager": {},
+  "NamedBitSetFilterUI": {
+    "ALL_TYPES": {}
+  },
+  "NavigatorFolderTreeElement": {},
+  "NavigatorFolderTreeNode": {},
+  "NavigatorRootTreeNode": {},
+  "NavigatorSourceTreeElement": {},
+  "NavigatorTreeNode": {},
+  "NavigatorUISourceCodeTreeNode": {},
+  "NavigatorView": {
+    "Events": {
+      "ItemRenamed": {},
+      "ItemSelected": {}
+    },
+    "Types": {
+      "Domain": {},
+      "FileSystem": {},
+      "Folder": {},
+      "Root": {},
+      "UISourceCode": {}
+    }
+  },
+  "NetworkDispatcher": {},
+  "NetworkLog": {},
+  "NetworkManager": {
+    "EventTypes": {
+      "RequestFinished": {},
+      "RequestStarted": {},
+      "RequestUpdateDropped": {},
+      "RequestUpdated": {}
+    }
+  },
+  "NetworkMapping": {},
+  "NetworkProject": {
+    "FallbackResource": {}
+  },
+  "NetworkProjectDelegate": {},
+  "NetworkRequest": {
+    "Events": {
+      "EventSourceMessageAdded": {},
+      "FinishedLoading": {},
+      "RemoteAddressChanged": {},
+      "RequestHeadersChanged": {},
+      "ResponseHeadersChanged": {},
+      "TimingChanged": {},
+      "WebsocketFrameAdded": {}
+    },
+    "InitiatorType": {
+      "Other": {},
+      "Parser": {},
+      "Redirect": {},
+      "Script": {}
+    },
+    "WebSocketFrameType": {
+      "Error": {},
+      "Receive": {},
+      "Send": {}
+    }
+  },
+  "NotificationService": {
+    "Events": {
+      "InspectorAgentEnabledForTests": {},
+      "SelectedNodeChanged": {}
+    }
+  },
+  "Object": {},
+  "ObjectPopoverHelper": {
+    "MaxPopoverTextLength": {}
+  },
+  "ObjectPropertiesSection": {
+    "CompareProperties": {}
+  },
+  "ObjectPropertyPrompt": {},
+  "ObjectPropertyTreeElement": {},
+  "OpenResourceDialog": {},
+  "OutputStream": {},
+  "OutputStreamDelegate": {},
+  "OverlayController": {},
+  "OverridesSupport": {
+    "Device": {},
+    "DeviceOrientation": {},
+    "Events": {
+      "EmulationStateChanged": {},
+      "OverridesWarningUpdated": {}
+    },
+    "GeolocationPosition": {},
+    "MaxDeviceSize": {},
+    "NetworkThroughputUnlimitedValue": {},
+    "PageResizer": {
+      "Events": {
+        "AvailableSizeChanged": {},
+        "FixedScaleRequested": {},
+        "ResizeRequested": {}
+      }
+    }
+  },
+  "OverridesUI": {},
+  "OverridesView": {
+    "DeviceTab": {},
+    "MediaTab": {},
+    "NetworkTab": {},
+    "Revealer": {},
+    "SensorsTab": {
+      "DeviceOrientationModificationSource": {
+        "ResetButton": {},
+        "UserDrag": {},
+        "UserInput": {}
+      }
+    },
+    "Tab": {}
+  },
+  "PageDispatcher": {},
+  "PageLoad": {},
+  "PaintProfilerLogItem": {},
+  "PaintProfilerSnapshot": {},
+  "Panel": {},
+  "PanelDescriptor": {},
+  "PanelFactory": {},
+  "PanelWithSidebar": {},
+  "ParsedURL": {},
+  "PauseOnExceptionStateSetting": {},
+  "Popover": {
+    "Orientation": {
+      "Bottom": {},
+      "Top": {}
+    }
+  },
+  "PopoverHelper": {},
+  "PresentationConsoleMessage": {},
+  "PresentationConsoleMessageHelper": {
+    "Events": {
+      "ConsoleMessageAdded": {},
+      "ConsoleMessageRemoved": {},
+      "ConsoleMessagesCleared": {}
+    }
+  },
+  "Progress": {
+    "Events": {
+      "Canceled": {},
+      "Done": {}
+    }
+  },
+  "ProgressIndicator": {},
+  "ProgressStub": {},
+  "Project": {
+    "Events": {
+      "DisplayNameUpdated": {}
+    }
+  },
+  "ProjectDelegate": {
+    "Events": {
+      "FileAdded": {},
+      "FileRemoved": {}
+    }
+  },
+  "ProjectSearchConfig": {},
+  "PropertiesSection": {},
+  "QueryParamHandler": {},
+  "RegExpSetting": {},
+  "RemoteDebuggingTerminatedScreen": {},
+  "RemoteObject": {},
+  "RemoteObjectImpl": {},
+  "RemoteObjectProperty": {},
+  "Renderer": {},
+  "RenderingOptions": {
+    "View": {}
+  },
+  "Replaceable": {},
+  "ResizerWidget": {
+    "Events": {
+      "ResizeEnd": {},
+      "ResizeStart": {},
+      "ResizeUpdate": {}
+    }
+  },
+  "Resource": {
+    "Events": {
+      "MessageAdded": {},
+      "MessagesCleared": {}
+    }
+  },
+  "ResourceScriptFile": {
+    "Events": {
+      "DidDivergeFromVM": {},
+      "DidMergeToVM": {}
+    }
+  },
+  "ResourceScriptMapping": {},
+  "ResourceSourceFrame": {},
+  "ResourceSourceFrameFallback": {},
+  "ResourceTreeFrame": {},
+  "ResourceTreeModel": {
+    "EventTypes": {
+      "CachedResourcesLoaded": {},
+      "ColorPicked": {},
+      "DOMContentLoaded": {},
+      "FrameAdded": {},
+      "FrameDetached": {},
+      "FrameNavigated": {},
+      "FrameResized": {},
+      "InspectedURLChanged": {},
+      "Load": {},
+      "MainFrameNavigated": {},
+      "ResourceAdded": {},
+      "ScreencastFrame": {},
+      "ScreencastVisibilityChanged": {},
+      "SecurityOriginAdded": {},
+      "SecurityOriginRemoved": {},
+      "ViewportChanged": {},
+      "WillLoadCachedResources": {},
+      "WillReloadPage": {}
+    }
+  },
+  "ResourceType": {},
+  "ResponsiveDesignView": {
+    "RulerBottomHeight": {},
+    "RulerHeight": {},
+    "RulerTopHeight": {},
+    "RulerWidth": {}
+  },
+  "Revealer": {},
+  "Revision": {},
+  "RevisionHistoryTreeElement": {},
+  "RevisionHistoryView": {},
+  "RootView": {},
+  "RuntimeDispatcher": {},
+  "RuntimeExtensionPanelDescriptor": {},
+  "RuntimeModel": {
+    "Events": {
+      "ExecutionContextCreated": {},
+      "ExecutionContextDestroyed": {}
+    }
+  },
+  "SASSSourceMapping": {},
+  "SDKModel": {},
+  "SDKObject": {},
+  "ScopeChainSidebarPane": {},
+  "ScopeRef": {},
+  "ScopeRemoteObject": {},
+  "ScopeTreeElement": {},
+  "Script": {
+    "Events": {
+      "ScriptEdited": {},
+      "SourceMapURLAdded": {}
+    }
+  },
+  "ScriptFormatter": {},
+  "ScriptFormatterEditorAction": {},
+  "ScriptSnippetModel": {},
+  "SearchConfig": {
+    "QueryTerm": {}
+  },
+  "SearchResultsPane": {},
+  "SearchScope": {},
+  "Searchable": {},
+  "SearchableView": {
+    "SearchConfig": {}
+  },
+  "Section": {},
+  "SelectUISourceCodeDialog": {},
+  "SelectUISourceCodeForProjectTypesDialog": {},
+  "SelectionDialogContentProvider": {},
+  "ServiceWorkerCacheModel": {
+    "Cache": {},
+    "CacheId": {},
+    "Entry": {},
+    "EventTypes": {
+      "CacheAdded": {},
+      "CacheRemoved": {}
+    }
+  },
+  "ServiceWorkerConnection": {},
+  "ServiceWorkerDispatcher": {},
+  "ServiceWorkerManager": {},
+  "Setting": {},
+  "Settings": {},
+  "SettingsUI": {},
+  "ShortcutRegistry": {
+    "ForwardedShortcut": {}
+  },
+  "ShortcutsScreen": {
+    "ElementsPanelShortcuts": {
+      "Collapse": {},
+      "DecrementBy01": {},
+      "DecrementBy10": {},
+      "DecrementBy100": {},
+      "DecrementValue": {},
+      "EditAttribute": {},
+      "Expand": {},
+      "HideElement": {},
+      "IncrementBy01": {},
+      "IncrementBy10": {},
+      "IncrementBy100": {},
+      "IncrementValue": {},
+      "NavigateDown": {},
+      "NavigateUp": {},
+      "NextProperty": {},
+      "PreviousProperty": {},
+      "ToggleEditAsHTML": {}
+    },
+    "LayersPanelShortcuts": {
+      "Down": {},
+      "Left": {},
+      "PanMode": {},
+      "ResetView": {},
+      "Right": {},
+      "RotateMode": {},
+      "TogglePanRotate": {},
+      "Up": {},
+      "ZoomIn": {},
+      "ZoomOut": {}
+    },
+    "ProfilesPanelShortcuts": {
+      "StartStopRecording": {}
+    },
+    "SourcesPanelShortcuts": {
+      "AddSelectionToWatch": {},
+      "CloseEditorTab": {},
+      "DecreaseCSSUnitByOne": {},
+      "DecreaseCSSUnitByTen": {},
+      "EvaluateSelectionInConsole": {},
+      "GoToLine": {},
+      "GoToMember": {},
+      "GotoMatchingBracket": {},
+      "IncreaseCSSUnitByOne": {},
+      "IncreaseCSSUnitByTen": {},
+      "JumpToNextLocation": {},
+      "JumpToPreviousLocation": {},
+      "NextCallFrame": {},
+      "PrevCallFrame": {},
+      "Save": {},
+      "SaveAll": {},
+      "SelectNextOccurrence": {},
+      "SoftUndo": {},
+      "ToggleAutocompletion": {},
+      "ToggleBreakpoint": {},
+      "ToggleComment": {}
+    },
+    "TimelinePanelShortcuts": {
+      "JumpToNextFrame": {},
+      "JumpToPreviousFrame": {},
+      "LoadFromFile": {},
+      "SaveToFile": {},
+      "StartStopRecording": {}
+    }
+  },
+  "ShortcutsSection": {},
+  "SidebarPane": {},
+  "SidebarPaneStack": {},
+  "SidebarPaneTitle": {},
+  "SidebarSectionTreeElement": {},
+  "SidebarTabbedPane": {},
+  "SidebarTreeElement": {},
+  "SimpleApp": {},
+  "SimpleAppProvider": {},
+  "SimpleAutocompleteDelegate": {},
+  "SimpleHistoryManager": {},
+  "SimpleResizerWidget": {},
+  "Snippet": {},
+  "SnippetContentProvider": {},
+  "SnippetScriptMapping": {},
+  "SnippetStorage": {},
+  "SnippetsNavigatorView": {},
+  "SnippetsProjectDelegate": {},
+  "SoftContextMenu": {},
+  "SourceFrame": {
+    "Events": {
+      "JumpHappened": {},
+      "ScrollChanged": {},
+      "SelectionChanged": {}
+    },
+    "RowMessage": {},
+    "RowMessageBucket": {}
+  },
+  "SourceFrameMessage": {
+    "Level": {
+      "Error": {},
+      "Warning": {}
+    }
+  },
+  "SourceMap": {
+    "StringCharIterator": {}
+  },
+  "SourceRange": {},
+  "SourcesNavigator": {
+    "Events": {
+      "SourceRenamed": {},
+      "SourceSelected": {}
+    }
+  },
+  "SourcesNavigatorView": {},
+  "SourcesPanel": {
+    "BaseActionDelegate": {},
+    "ContextMenuProvider": {},
+    "DebuggerPausedDetailsRevealer": {},
+    "RunSnippetActionDelegate": {},
+    "ShowGoToSourceDialogActionDelegate": {},
+    "StepIntoActionDelegate": {},
+    "StepIntoAsyncActionDelegate": {},
+    "StepOutActionDelegate": {},
+    "StepOverActionDelegate": {},
+    "TogglePauseActionDelegate": {},
+    "UILocationRevealer": {},
+    "UISourceCodeRevealer": {}
+  },
+  "SourcesPanelFactory": {},
+  "SourcesSearchScope": {},
+  "SourcesView": {
+    "EditorAction": {},
+    "Events": {
+      "EditorClosed": {},
+      "EditorSelected": {}
+    },
+    "SwitchFileActionDelegate": {}
+  },
+  "SplitView": {
+    "Events": {
+      "ShowModeChanged": {},
+      "SidebarSizeChanged": {}
+    },
+    "MinPadding": {},
+    "ShowMode": {
+      "Both": {},
+      "OnlyMain": {},
+      "OnlySidebar": {}
+    }
+  },
+  "StackView": {},
+  "StaticContentProvider": {},
+  "StaticViewportElement": {},
+  "StatusBar": {},
+  "StatusBarButton": {},
+  "StatusBarButtonBase": {},
+  "StatusBarCheckbox": {},
+  "StatusBarComboBox": {},
+  "StatusBarCounter": {},
+  "StatusBarInput": {
+    "Event": {
+      "TextChanged": {}
+    }
+  },
+  "StatusBarItem": {
+    "Provider": {}
+  },
+  "StatusBarSeparator": {},
+  "StatusBarStatesSettingButton": {},
+  "StatusBarText": {},
+  "StatusBarTextButton": {},
+  "Streams": {},
+  "StringFormatter": {},
+  "StringOutputStream": {},
+  "StyleFile": {},
+  "StyleSheetOutlineDialog": {},
+  "StyleValueDelimiters": {},
+  "StylesSourceMapping": {
+    "MinorChangeUpdateTimeoutMs": {}
+  },
+  "SubProgress": {},
+  "SuggestBox": {
+    "Overlay": {}
+  },
+  "SuggestBoxDelegate": {},
+  "TabbedEditorContainer": {
+    "Events": {
+      "EditorClosed": {},
+      "EditorSelected": {}
+    },
+    "History": {},
+    "HistoryItem": {}
+  },
+  "TabbedEditorContainerDelegate": {},
+  "TabbedPane": {
+    "EventTypes": {
+      "TabClosed": {},
+      "TabSelected": {}
+    }
+  },
+  "TabbedPaneTab": {},
+  "TabbedPaneTabDelegate": {},
+  "Target": {
+    "Capabilities": {
+      "CanEmulate": {},
+      "CanInspectWorkers": {},
+      "CanScreencast": {},
+      "HasTouchInputs": {}
+    },
+    "Type": {
+      "DedicatedWorker": {},
+      "Page": {},
+      "ServiceWorker": {}
+    }
+  },
+  "TargetManager": {
+    "Events": {
+      "InspectedURLChanged": {},
+      "Load": {},
+      "MainFrameNavigated": {},
+      "SuspendStateChanged": {},
+      "WillReloadPage": {}
+    },
+    "Observer": {}
+  },
+  "TempFile": {},
+  "TempFileBackingStorage": {},
+  "TestBase": {},
+  "TextDictionary": {},
+  "TextEditorAutocompleteController": {},
+  "TextEditorAutocompleteDelegate": {},
+  "TextEditorDelegate": {},
+  "TextEditorDelegateForSourceFrame": {},
+  "TextEditorPositionHandle": {},
+  "TextFilterUI": {
+    "SuggestionBuilder": {}
+  },
+  "TextPrompt": {
+    "DefaultAutocompletionTimeout": {},
+    "Events": {
+      "ItemAccepted": {},
+      "ItemApplied": {}
+    }
+  },
+  "TextPromptWithHistory": {},
+  "TextRange": {},
+  "TextUtils": {
+    "BalancedJSONTokenizer": {},
+    "Indent": {
+      "EightSpaces": {},
+      "FourSpaces": {},
+      "TabCharacter": {},
+      "TwoSpaces": {}
+    }
+  },
+  "ThreadsSidebarPane": {},
+  "Throttler": {},
+  "TokenizerFactory": {},
+  "TracingDispatcher": {},
+  "TracingLayer": {},
+  "TracingLayerTree": {},
+  "TracingManager": {},
+  "TracingManagerClient": {},
+  "TracingModel": {
+    "ConsoleEventCategory": {},
+    "DevToolsMetadataEvent": {
+      "TracingSessionIdForWorker": {},
+      "TracingStartedInPage": {}
+    },
+    "DevToolsMetadataEventCategory": {},
+    "Event": {},
+    "FrameLifecycleEventCategory": {},
+    "Loader": {},
+    "MetadataEvent": {
+      "ProcessName": {},
+      "ProcessSortIndex": {},
+      "ThreadName": {},
+      "ThreadSortIndex": {}
+    },
+    "NamedObject": {},
+    "ObjectSnapshot": {},
+    "Phase": {
+      "AsyncBegin": {},
+      "AsyncEnd": {},
+      "AsyncStepInto": {},
+      "AsyncStepPast": {},
+      "Begin": {},
+      "Complete": {},
+      "Counter": {},
+      "CreateObject": {},
+      "DeleteObject": {},
+      "End": {},
+      "FlowBegin": {},
+      "FlowEnd": {},
+      "FlowStep": {},
+      "Instant": {},
+      "Metadata": {},
+      "NestableAsyncBegin": {},
+      "NestableAsyncEnd": {},
+      "NestableAsyncInstant": {},
+      "Sample": {},
+      "SnapshotObject": {}
+    },
+    "Process": {},
+    "Thread": {},
+    "TopLevelEventCategory": {}
+  },
+  "UIList": {
+    "Item": {}
+  },
+  "UILocation": {},
+  "UISettingDelegate": {},
+  "UISourceCode": {
+    "Events": {
+      "SavedStateUpdated": {},
+      "SourceMappingChanged": {},
+      "TitleChanged": {},
+      "WorkingCopyChanged": {},
+      "WorkingCopyCommitted": {}
+    }
+  },
+  "UISourceCodeFrame": {
+    "Infobar": {
+      "Level": {
+        "Error": {},
+        "Info": {},
+        "Warning": {}
+      }
+    }
+  },
+  "UIString": {},
+  "UIStringFormat": {},
+  "UserMetrics": {
+    "UserAction": {},
+    "UserActionNames": {
+      "ApplyOriginalContent": {},
+      "FileSaved": {},
+      "ForcedElementState": {},
+      "HeapSnapshotFilterChanged": {},
+      "NetworkRequestSelected": {},
+      "NetworkRequestTabSelected": {},
+      "NetworkSort": {},
+      "OpenSourceLink": {},
+      "RevertRevision": {},
+      "SetBreakpoint": {},
+      "TogglePrettyPrint": {}
+    }
+  },
+  "VBox": {},
+  "VBoxWithResizeCallback": {},
+  "VersionController": {},
+  "View": {},
+  "ViewportControl": {
+    "Provider": {}
+  },
+  "ViewportElement": {},
+  "WatchExpression": {
+    "Events": {
+      "ExpressionUpdated": {}
+    }
+  },
+  "WatchExpressionsSidebarPane": {},
+  "WorkerConnection": {},
+  "WorkerDispatcher": {},
+  "WorkerManager": {},
+  "WorkerTerminatedScreen": {},
+  "Workspace": {
+    "Events": {
+      "ProjectAdded": {},
+      "ProjectRemoved": {},
+      "UISourceCodeAdded": {},
+      "UISourceCodeContentCommitted": {},
+      "UISourceCodeRemoved": {}
+    }
+  },
+  "WorkspaceController": {},
+  "WorkspaceMappingTip": {},
+  "XHRBreakpointsSidebarPane": {},
+  "ZoomManager": {
+    "Events": {
+      "ZoomChanged": {}
+    }
+  }
+}
